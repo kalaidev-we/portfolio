@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "cmd.exe /c \"cd /d C:\\Users\\USER\\.gemini\\antigravity\\portfolio_project && npm run dev\"",
-    "build": "cmd.exe /c \"cd /d C:\\Users\\USER\\.gemini\\antigravity\\portfolio_project && npm run build\"",
-    "start": "cmd.exe /c \"cd /d C:\\Users\\USER\\.gemini\\antigravity\\portfolio_project && npm run start\"",
-    "lint": "cmd.exe /c \"cd /d C:\\Users\\USER\\.gemini\\antigravity\\portfolio_project && npm run lint\""
+    "dev": "node scripts/run-script.js dev",
+    "build": "node scripts/run-script.js build",
+    "start": "node scripts/run-script.js start",
+    "lint": "node scripts/run-script.js lint"
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -30,7 +30,6 @@
     "eslint-config-next": "15.1.0",
     "@eslint/eslintrc": "^3",
     "@types/three": "^0.170.0",
-    "@types/canvas-confetti": "^1.6.4",
-    "@next/swc-win32-x64-msvc": "15.1.0"
+    "@types/canvas-confetti": "^1.6.4"
   }
 }
